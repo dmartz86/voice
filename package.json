@@ -1,0 +1,18 @@
+{
+  "name": "vpaf",
+  "version": "0.0.3",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.0",
+    "multer": "^1.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node api/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

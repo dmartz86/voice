@@ -1,0 +1,95 @@
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.center {
+  text-align: center;
+}
+
+.record:hover {
+  color: deepskyblue;
+}
+
+.card {
+  font-size: 120px;
+  font-weight: 300;
+}
+
+.grid {
+  display: flex;
+}
+
+.container {
+  width: 960px;
+  padding-left: calc(calc(100% - 960px) / 2);
+  padding-right: calc(calc(100% - 960px) / 2);
+}
+
+.grid .col {
+  flex: 1;
+  border-radius: 4px;
+  color: whitesmoke;
+  margin: 4px;
+}
+
+.grid .col.red {
+  background-color: lightcoral;
+}
+
+.grid .col.green {
+  background-color: lightseagreen;
+}
+
+.grid .col.blue {
+  background-color: lightskyblue;
+}
+
+.block {
+  color: black;
+  font-size: 24px;
+  border: 1px solid lightblue;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.block.up {
+  border-radius: 4px 4px 0 0;
+}
+
+.block.down {
+  border-radius: 0 0 4px 4px;
+}
+
+.block.normal {
+  font-size: unset;
+  border-radius: 4px;
+}
+
+.block.full,
+.block.active {
+  color: whitesmoke;
+  background-color: lightskyblue;
+}
+
+.grid .col.red:hover,
+.grid .col.green:hover {
+  opacity: .9;
+}
+
+.content {
+  text-align: justify;
+}
+
+.icon {
+  font-size: 42px;
+}
+
+
+.intent {
+  padding: 4px;
+  background-color: lightgray;
+}
+
+.intent.active {
+  background-color: lightgreen;
+}
